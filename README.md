@@ -15,6 +15,8 @@ Testnet Dusk akan berjalan selama 6 minggu, 2 minggu (15-30 November) untuk grac
 
 [Dokumen resmi](https://dusk.network/pages/incentivized-testnet)
 
+[Form pendaftaran peserta testnet](https://forms.gle/3h4wDbab9f6bZ68L8)
+
 [Discord server](https://discord.gg/dusknetwork)
 
 ## Persyaratan hardware & software
