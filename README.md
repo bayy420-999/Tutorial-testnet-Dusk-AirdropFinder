@@ -63,7 +63,7 @@ Unduh executable `rusk-wallet`
 
 ```console
 cd $HOME
-https://github.com/dusk-network/wallet-cli/releases/download/v0.12.0/ruskwallet0.12.0-linux-x64.tar.gz
+wget https://github.com/dusk-network/wallet-cli/releases/download/v0.12.0/ruskwallet0.12.0-linux-x64.tar.gz
 ```
 
 Lalu extract dengan menggunakan `tar`
