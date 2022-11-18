@@ -152,7 +152,7 @@ ufw allow 9000:9005/udp
 ### Pindahkan file `.key` ke folder `/opt/dusk/conf`
 
 ```console
-mv $(ls -a .dusk/rusk-wallet | grep *.key) /opt/dusk/conf/consensus.keys
+cp .dusk/rusk-wallet/$(ls -a .dusk/rusk-wallet | grep .key) /opt/dusk/conf/consensus.keys
 ```
 
 ### Set password `consensus.keys`
