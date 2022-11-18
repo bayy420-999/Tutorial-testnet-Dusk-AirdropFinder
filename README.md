@@ -166,6 +166,27 @@ service rusk start
 service dusk start
 ```
 
+### Stake Dusk
+
+```console
+cd $HOME
+cd ruskwallet0.12.0-linux-x64
+./rusk-wallet
+```
+
+Lalu ikuti step dibawah
+
+* Pilih `Access your wallet`
+* Masukan password anda 
+* Pilih address anda
+* Cek apakah balance sudah dikirim admin
+* Jika sudah, Pilih `Stake Dusk`
+* Masukan nominal Dusk yang ingin distake (Minimal 1000 Dusk dan fee 2 Dusk)
+* Isi gas limit dengan `2000000000`
+* Untuk gas price bisa dibiarkan default
+* Lalu ketik `y` untuk mengkonfirmasi transaksi
+* Simpan tx hash (Untuk berjaga-jaga bila dibutuhkan)
+
 ## Perintah berguna
 
 ### Menjalankan service
@@ -223,4 +244,16 @@ Masukan text ini, lalu ganti `IP_ADDRESS` dengan IP Address VPSmu
 ```console
 KADCAST_PUBLIC_ADDRESS=IP_ADDRESS:9000
 KADCAST_LISTEN_ADDRESS=IP_ADDRESS:9000
+```
+
+### Error while loading shared libraries: libssl.so.1.1
+
+```console
+wget https://www.openssl.org/source/openssl-1.1.1o.tar.gz
+tar -zxvf openssl-1.1.1o.tar.gz
+cd openssl-1.1.1o
+./config
+make
+make test
+sudo make install
 ```
